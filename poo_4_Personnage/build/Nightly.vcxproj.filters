@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rmuri\Documents\Mes Documents\3 FORMATION\S SOURCES C++\githubCpp_VSCODE\poo_4_Personnage\build\CMakeFiles\fa9fdfc0aaa684781eeadcd142fdcc81\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rmuri\Documents\Mes Documents\3 FORMATION\S SOURCES C++\githubCpp_VSCODE\poo_4_Personnage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\rmuri\Documents\Mes Documents\3 FORMATION\S SOURCES C++\githubCpp_VSCODE\poo_4_Personnage\build\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{17938052-1968-37F5-AFD1-0663883FEE08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

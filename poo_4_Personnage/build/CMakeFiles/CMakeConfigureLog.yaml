@@ -1,0 +1,462 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /mingw/lib/libmingw32.a(setargv.o):(.text+0x33): undefined reference to `__chkstk_ms'
+      /mingw/lib/libmingwex.a(glob.o):(.text+0x6d2): undefined reference to `__chkstk_ms'
+      /mingw/lib/libmingwex.a(glob.o):(.text+0x8b8): undefined reference to `__chkstk_ms'
+      /mingw/lib/libmingwex.a(glob.o):(.text+0x900): undefined reference to `__chkstk_ms'
+      /mingw/lib/libmingwex.a(glob.o):(.text+0xa25): undefined reference to `__chkstk_ms'
+      /mingw/lib/libmingwex.a(glob.o):(.text+0xc15): more undefined references to `__chkstk_ms' follow
+      collect2: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-gz9a9z"
+      binary: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-gz9a9z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-gz9a9z'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_d24e0
+        [1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Reading specs from C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         C:/MinGW/bin/../libexec/gcc/mingw32/3.4.5/cc1.exe -quiet -v -iprefix C:\\MinGW\\bin\\../lib/gcc/mingw32/3.4.5/ C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\rmuri\\AppData\\Local\\Temp/cczWVySc.s
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include
+         C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include
+         C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/include
+         /mingw/lib/gcc/mingw32/3.4.5/../../../../include
+         /mingw/include
+         /mingw/lib/gcc/mingw32/3.4.5/include
+         /mingw/lib/gcc/mingw32/3.4.5/../../../../mingw32/include
+         /mingw/include
+        End of search list.
+        GNU C version 3.4.5 (mingw-vista special r3) (mingw32)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/as.exe -o CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj C:\\Users\\rmuri\\AppData\\Local\\Temp/cczWVySc.s\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj -o cmTC_d24e0.exe -Wl,--out-implib,libcmTC_d24e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        FAILED: cmTC_d24e0.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj -o cmTC_d24e0.exe -Wl,--out-implib,libcmTC_d24e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Reading specs from C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         C:/MinGW/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe -Bdynamic -o cmTC_d24e0.exe /mingw/lib/crt2.o C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5 -LC:/MinGW/bin/../lib/gcc -L/mingw/lib/gcc/mingw32/3.4.5 -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -L/mingw/lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -L/mingw/lib -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../.. -L/mingw/lib/gcc/mingw32/3.4.5/../../.. -v CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d24e0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        collect2 version 3.4.5 (mingw-vista special r3) (x86 MinGW)
+        C:\\MinGW\\bin/ld.exe -Bdynamic -o cmTC_d24e0.exe /mingw/lib/crt2.o C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5 -LC:/MinGW/bin/../lib/gcc -L/mingw/lib/gcc/mingw32/3.4.5 -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -L/mingw/lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -L/mingw/lib -LC:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../.. -L/mingw/lib/gcc/mingw32/3.4.5/../../.. -v CMakeFiles/cmTC_d24e0.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d24e0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        GNU ld (GNU Binutils) 2.28
+        /mingw/lib/libmingw32.a(setargv.o):(.text+0x33): undefined reference to `__chkstk_ms'
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x6d2): undefined reference to `__chkstk_ms'
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x8b8): undefined reference to `__chkstk_ms'
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x900): undefined reference to `__chkstk_ms'
+        /mingw/lib/libmingwex.a(glob.o):(.text+0xa25): undefined reference to `__chkstk_ms'\x0d
+        /mingw/lib/libmingwex.a(glob.o):(.text+0xc15): more undefined references to `__chkstk_ms' follow\x0d
+        collect2: ld returned 1 exit status\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/MinGW/bin/gcc.exe"
+    directories:
+      source: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-fzsv6s"
+      binary: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-fzsv6s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-fzsv6s'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_2ed22
+        [1/2] C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles/cmTC_2ed22.dir/testCCompiler.c.obj -c "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-fzsv6s/testCCompiler.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe   CMakeFiles/cmTC_2ed22.dir/testCCompiler.c.obj -o cmTC_2ed22.exe -Wl,--out-implib,libcmTC_2ed22.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_2ed22.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe   CMakeFiles/cmTC_2ed22.dir/testCCompiler.c.obj -o cmTC_2ed22.exe -Wl,--out-implib,libcmTC_2ed22.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        /mingw/lib/libmingw32.a(setargv.o):(.text+0x33): undefined reference to `__chkstk_ms'
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x6d2): undefined reference to `__chkstk_ms'\x0d
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x8b8): undefined reference to `__chkstk_ms'\x0d
+        /mingw/lib/libmingwex.a(glob.o):(.text+0x900): undefined reference to `__chkstk_ms'\x0d
+        /mingw/lib/libmingwex.a(glob.o):(.text+0xa25): undefined reference to `__chkstk_ms'\x0d
+        /mingw/lib/libmingwex.a(glob.o):(.text+0xc15): more undefined references to `__chkstk_ms' follow\x0d
+        collect2: ld returned 1 exit status\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.12.12+1cce77968 pour .NET Framework
+      La g├®n├®ration a d├®marr├® 05/01/2025 09:59:31.
+      
+      Projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+      PrepareForBuild:
+        Cr├®ation du r├®pertoire "Debug\\".
+        La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+        Cr├®ation du r├®pertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Cr├®ation de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      G├®n├®ration du projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" termin├®e (cibles par d├®faut).
+      
+      La g├®n├®ration a r├®ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ├®coul├® 00:00:01.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.12.12+1cce77968 pour .NET Framework
+      La g├®n├®ration a d├®marr├® 05/01/2025 09:59:32.
+      
+      Projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+      PrepareForBuild:
+        Cr├®ation du r├®pertoire "Debug\\".
+        La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+        Cr├®ation du r├®pertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Cr├®ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      G├®n├®ration du projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" termin├®e (cibles par d├®faut).
+      
+      La g├®n├®ration a r├®ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ├®coul├® 00:00:00.95
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-u520a5"
+      binary: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-u520a5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-u520a5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9e66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.12.12+1cce77968 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 05/01/2025 09:59:34.
+        
+        Projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u520a5\\cmTC_e9e66.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_e9e66.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u520a5\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_e9e66.dir\\Debug\\cmTC_e9e66.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_e9e66.dir\\Debug\\cmTC_e9e66.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_e9e66.dir\\Debug\\cmTC_e9e66.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9e66.dir\\Debug\\\\" /Fd"cmTC_e9e66.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9e66.dir\\Debug\\\\" /Fd"cmTC_e9e66.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u520a5\\Debug\\cmTC_e9e66.exe" /INCREMENTAL /ILK:"cmTC_e9e66.dir\\Debug\\cmTC_e9e66.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-u520a5/Debug/cmTC_e9e66.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-u520a5/Debug/cmTC_e9e66.lib" /MACHINE:X64  /machine:x64 cmTC_e9e66.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e9e66.vcxproj -> C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u520a5\\Debug\\cmTC_e9e66.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_e9e66.dir\\Debug\\cmTC_e9e66.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_e9e66.dir\\Debug\\cmTC_e9e66.tlog\\cmTC_e9e66.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u520a5\\cmTC_e9e66.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-41dia4"
+      binary: "C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-41dia4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-41dia4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_baef2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.12.12+1cce77968 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 05/01/2025 09:59:35.
+        
+        Projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41dia4\\cmTC_baef2.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_baef2.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41dia4\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_baef2.dir\\Debug\\cmTC_baef2.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_baef2.dir\\Debug\\cmTC_baef2.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_baef2.dir\\Debug\\cmTC_baef2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_baef2.dir\\Debug\\\\" /Fd"cmTC_baef2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_baef2.dir\\Debug\\\\" /Fd"cmTC_baef2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41dia4\\Debug\\cmTC_baef2.exe" /INCREMENTAL /ILK:"cmTC_baef2.dir\\Debug\\cmTC_baef2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-41dia4/Debug/cmTC_baef2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/CMakeScratch/TryCompile-41dia4/Debug/cmTC_baef2.lib" /MACHINE:X64  /machine:x64 cmTC_baef2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_baef2.vcxproj -> C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41dia4\\Debug\\cmTC_baef2.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_baef2.dir\\Debug\\cmTC_baef2.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_baef2.dir\\Debug\\cmTC_baef2.tlog\\cmTC_baef2.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\rmuri\\Documents\\Mes Documents\\3 FORMATION\\S SOURCES C++\\githubCpp_VSCODE\\poo_4_Personnage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41dia4\\cmTC_baef2.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

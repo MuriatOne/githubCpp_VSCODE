@@ -1,0 +1,9 @@
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/POO_4_PERSONNAGE.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/Experimental.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/Nightly.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/Continuous.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/PACKAGE.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/rmuri/Documents/Mes Documents/3 FORMATION/S SOURCES C++/githubCpp_VSCODE/poo_4_Personnage/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rmuri\Documents\Mes Documents\3 FORMATION\S SOURCES C++\githubCpp_VSCODE\poo_4_Personnage\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rmuri\Documents\Mes Documents\3 FORMATION\S SOURCES C++\githubCpp_VSCODE\poo_4_Personnage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF7ACE21-983A-3BF4-98BA-10AC8295267E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
